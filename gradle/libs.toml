@@ -1,0 +1,23 @@
+[versions]
+kotlin = "2.0.20"
+lombok = "1.18.34"
+junit = "4.13.2"
+junitJupiter = "5.8.1"
+mockk = "1.13.12"
+
+[libraries]
+
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
+
+plugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
+test-junit = { group = "junit", name = "junit", version.ref = "junit" }
+test-junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
+test-mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+
+
+[bundles]
+plugins-gradle = ["plugin-kotlin"]
+test = ["test-junit", "test-junit-jupiter", "test-mockk"]
+
+[plugins]
