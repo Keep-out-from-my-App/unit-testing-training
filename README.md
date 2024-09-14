@@ -3,7 +3,7 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)
 [![ru](https://img.shields.io/badge/lang-ru-red.svg)](README.ru.md)
 
-Practice work on the discipline at RTU MIREA.
+Practice work on the "Software testing and verification" discipline at RTU MIREA.
 
 ## Contributors
 
