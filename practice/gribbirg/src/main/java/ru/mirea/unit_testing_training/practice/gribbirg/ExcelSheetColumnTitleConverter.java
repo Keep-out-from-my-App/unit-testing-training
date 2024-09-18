@@ -2,6 +2,9 @@ package ru.mirea.unit_testing_training.practice.gribbirg;
 
 import java.util.ArrayList;
 
+/**
+ * Конверт для работы с именем колонки в Excel.
+ */
 public class ExcelSheetColumnTitleConverter {
     private final static int NOTATION_BASE = 26;
 
@@ -10,7 +13,7 @@ public class ExcelSheetColumnTitleConverter {
      *
      * @param columnNumber число
      * @return имя колонки
-     * @link <a href="https://leetcode.com/problems/excel-sheet-column-title">Задача</a>
+     * @see <a href="https://leetcode.com/problems/excel-sheet-column-title">Задача</a>
      */
     public String convertToTitle(int columnNumber) {
         int num = columnNumber;
@@ -31,7 +34,7 @@ public class ExcelSheetColumnTitleConverter {
      *
      * @param columnTitle имя колонки
      * @return номер колонки
-     * @link <a href="https://leetcode.com/problems/excel-sheet-column-number">Задача</a>
+     * @see <a href="https://leetcode.com/problems/excel-sheet-column-number">Задача</a>
      */
     public int titleToNumber(String columnTitle) {
         int res = 0;

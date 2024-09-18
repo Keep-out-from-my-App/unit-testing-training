@@ -1,5 +1,8 @@
 package ru.mirea.unit_testing_training.practice.gribbirg;
 
+/**
+ * Проверка числа на определённые свойства.
+ */
 public class NumberAnalyzer {
     /**
      * Проверка числа на идеальность.

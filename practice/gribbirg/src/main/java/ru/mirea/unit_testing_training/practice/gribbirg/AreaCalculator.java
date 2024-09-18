@@ -1,5 +1,8 @@
 package ru.mirea.unit_testing_training.practice.gribbirg;
 
+/**
+ * Калькулятор площадей.
+ */
 public class AreaCalculator {
     /**
      * Считает суммарную площадь двух прямоугольников по координатам.
@@ -14,7 +17,7 @@ public class AreaCalculator {
      * @param bx2 x правого верхнего угла 2ого прямоугольника
      * @param by2 y правого верхнего угла 2ого прямоугольника
      * @return занимаемую двумя прямоугольниками площадь
-     * @link <a href="https://leetcode.com/problems/rectangle-area">Задача</a>
+     * @see <a href="https://leetcode.com/problems/rectangle-area">Задача</a>
      */
     public int computeArea(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
         int aArea = getArea(ax1, ay1, ax2, ay2);
