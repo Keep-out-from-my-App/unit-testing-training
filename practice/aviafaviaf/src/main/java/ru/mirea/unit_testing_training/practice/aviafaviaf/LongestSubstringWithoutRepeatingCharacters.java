@@ -10,7 +10,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
             }
             else {
                 answer = Math.max(currentS.length(), answer);
-                // i -= (currentS.length() - 1);
+                i -= (currentS.length() - 1);
                 currentS = "";
             }
         }

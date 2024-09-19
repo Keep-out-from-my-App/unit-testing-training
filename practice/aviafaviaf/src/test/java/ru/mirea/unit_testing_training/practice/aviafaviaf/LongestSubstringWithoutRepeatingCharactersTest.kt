@@ -12,7 +12,7 @@ class LongestSubstringWithoutRepeatingCharactersTest {
 
         val res = longestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(s)
 
-        assertEquals(5, res)
+        assertEquals(3, res)
     }
 
     @Test
